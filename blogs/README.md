@@ -87,7 +87,7 @@
 
 <br>
 
-### 9. [Understanding HTML Tags and Elements](https://devrahulll.hashnode.dev/html-tags-and-elements)
+### 9. [TCP vs UDP](https://devrahulll.hashnode.dev/tcp-vs-udp)
 
   <!-- <a href="https://blog.devwithjay.com/journey-of-data">
       <p align=center>
@@ -97,7 +97,7 @@
 
 <br>
 
-### 10. [Emmet for HTML](https://devrahulll.hashnode.dev/emmet)
+### 10. [Understanding HTML Tags and Elements](https://devrahulll.hashnode.dev/html-tags-and-elements)
 
   <!-- <a href="https://blog.devwithjay.com/journey-of-data">
       <p align=center>
@@ -107,7 +107,17 @@
 
 <br>
 
-### 11. [CSS Selectors](https://devrahulll.hashnode.dev/css-selectors)
+### 11. [Emmet for HTML](https://devrahulll.hashnode.dev/emmet)
+
+  <!-- <a href="https://blog.devwithjay.com/journey-of-data">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/b1-banner.png">
+    <p>
+  </a> -->
+
+<br>
+
+### 12. [CSS Selectors](https://devrahulll.hashnode.dev/css-selectors)
 
   <!-- <a href="https://blog.devwithjay.com/journey-of-data">
       <p align=center>
