@@ -1,4 +1,4 @@
-<a href="https://blog.devwithjay.com/">
+<a href="https://devrahulll.hashnode.dev/">
   <h1 align="center">Blogs Archive</h1>
 </a>
 
@@ -8,7 +8,7 @@
 
 <br>
 
-### [Hidden Journey Of Our Data](https://blog.devwithjay.com/journey-of-data)
+<!-- ### [Hidden Journey Of Our Data](https://blog.devwithjay.com/journey-of-data)
 
   <a href="https://blog.devwithjay.com/journey-of-data">
       <p align=center>
@@ -16,4 +16,4 @@
     <p>
   </a>
 
-<br>
+<br> -->

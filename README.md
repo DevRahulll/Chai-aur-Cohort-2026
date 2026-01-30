@@ -8,7 +8,7 @@
 <!-- Social Media Links -->
 <div align= center>
 
-<!-- [![Twitter Badge](https://img.shields.io/badge/-@devwithjay-1ca0f1?style=social&labelColor=red&logo=x&logoColor=black&link=https://x.com/RahulDe13551305)](https://x.com/RahulDe13551305)&nbsp;&nbsp;[![Linkedin Badge](https://img.shields.io/badge/@devwithjay-0e76a8)](https://www.linkedin.com/in/devrahulll/)&nbsp;&nbsp;[![Mail Badge](https://img.shields.io/badge/-hello@devwithjay.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=pink)](mailto:work.devrahul@gmail.com)&nbsp;&nbsp; -->
+[![X Badge](https://img.shields.io/badge/@RahulDe13551305-000000?style=flat&logo=x&logoColor=white)](https://x.com/RahulDe13551305)&nbsp;&nbsp;[![LinkedIn Badge](https://img.shields.io/badge/Dev%20Rahul-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devrahulll/)&nbsp;&nbsp;[![Mail Badge](https://img.shields.io/badge/work.devrahul@gmail.com-c0392b?style=flat&logo=gmail&logoColor=white)](mailto:work.devrahul@gmail.com)
 
 </div>
 
