@@ -97,7 +97,17 @@
 
 <br>
 
-### 10. [Understanding HTML Tags and Elements](https://devrahulll.hashnode.dev/html-tags-and-elements)
+### 10. [How a Browser Works](https://devrahulll.hashnode.dev/how-browsers-works)
+
+  <a href="https://devrahulll.hashnode.dev/how-browsers-works">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/browserBanner.png">
+    <p>
+  </a>
+
+<br>
+
+### 11. [Understanding HTML Tags and Elements](https://devrahulll.hashnode.dev/html-tags-and-elements)
 
   <a href="https://devrahulll.hashnode.dev/html-tags-and-elements">
       <p align=center>
@@ -107,7 +117,7 @@
 
 <br>
 
-### 11. [Emmet for HTML](https://devrahulll.hashnode.dev/emmet)
+### 12. [Emmet for HTML](https://devrahulll.hashnode.dev/emmet)
 
   <a href="https://devrahulll.hashnode.dev/emmet">
       <p align=center>
@@ -117,7 +127,7 @@
 
 <br>
 
-### 12. [CSS Selectors](https://devrahulll.hashnode.dev/css-selectors)
+### 13. [CSS Selectors](https://devrahulll.hashnode.dev/css-selectors)
 
   <a href="https://devrahulll.hashnode.dev/css-selectors">
       <p align=center>
