@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 nav {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,11 +28,12 @@ nav {
   width: 25px;
 }
 .links a {
+  font-size: 16px;
   margin: 10px;
   text-decoration: none;
 }
 .links a:hover {
-  color: #918f8f;
+  color: #c0bcbc;
 }
 
 .navBtn button {
@@ -44,6 +45,7 @@ nav {
 }
 #signinBtn {
   border: 0.1px solid #918f8f;
+  margin-right: 8px;
 }
 #downloadBtn {
   background-color: #fff;
@@ -51,4 +53,62 @@ nav {
 }
 .navBtn button:hover {
   cursor: pointer;
+}
+
+/* Final CTA */
+.final-CTA {
+  width: full;
+  height: 400px;
+  background-color: #14120b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.final-CTA h1 {
+  font-size: 60px;
+}
+.final-CTA button {
+  background-color: #fff;
+  color: #111;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  height: 300px;
+}
+.footer-main {
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.footer-main div {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.heading {
+  color: #918f8f;
+}
+
+.copyright {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.copyright p {
+  color: #918f8f;
+  cursor: pointer;
+}
+.copyright p:hover {
+  color: #fff;
 }
