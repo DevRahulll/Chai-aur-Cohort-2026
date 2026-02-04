@@ -5,6 +5,17 @@
 
   color: #fff;
 }
+@font-face {
+  font-family: "CursorFont";
+  /* Choose a descriptive name for your font */
+  src: url("/fonts/cursor-font.woff2") format("woff2");
+  font-weight: normal;
+  /* Define the weight of this specific file */
+  font-style: normal;
+  /* Define the style (normal or italic) */
+  font-display: swap;
+  /* Recommended for better performance (FOUT over FOIT) */
+}
 html,
 body {
   width: 100%;
@@ -18,7 +29,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: Courier, monospace;
+  font-family: "CursorFont";
 }
 #logo {
   display: flex;
@@ -238,6 +249,34 @@ section img {
 .changelogCard-para {
   margin-top: 10px;
   font-size: 18px;
+}
+
+/* About / Team Sections */
+#about {
+  margin-top: 150px;
+  padding: 10px;
+}
+#about div h2 {
+  margin: 8px 0;
+  font-size: 34px;
+  font-weight: 500;
+}
+.about-CTA {
+  background-color: #fff;
+  color: #111;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 22px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 40px 0;
+}
+.about-CTA span {
+  color: #111;
+}
+.about-pic img {
+  height: 720px;
 }
 
 /* Final CTA */
