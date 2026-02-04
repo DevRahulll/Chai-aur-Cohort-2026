@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  background-color: #111;
+
   color: #fff;
 }
 html,
@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 100%;
   max-width: 1300px;
+  background-color: #111;
   margin: auto;
 }
 nav {
@@ -17,6 +18,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: Courier, monospace;
 }
 #logo {
   display: flex;
@@ -193,6 +195,49 @@ section img {
 }
 #storiesCard img {
   width: 400px;
+}
+
+/* Changelog Sections*/
+#changelog h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+#changelog a {
+  text-decoration: none;
+}
+#changelog a p {
+  font-size: 18px;
+  color: #ff0000;
+  font-weight: 400;
+}
+.changelogCard-parent {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.changelogCard {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  background-color: #444242;
+  border-radius: 10px;
+}
+.changelogCard div {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 40px;
+}
+.changelogCard div .badge {
+  border-radius: 20px;
+  padding: 2px 16px;
+  border: 0.8px solid #c0bcbc;
+}
+.changelogCard-para {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 /* Final CTA */
