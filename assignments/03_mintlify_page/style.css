@@ -1,10 +1,110 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-html,
-body {
+
+header {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.221)
+    ),
+    url(./assets//bg-light.svg);
+  background-repeat: no-repeat;
+  background-size: 110% auto;
+  background-repeat: no-repeat;
+  background-position: center -85px;
+}
+
+/* Navbar section */
+header nav {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 100%;
+  padding: 1rem;
+  gap: 3rem;
+  backdrop-filter: blur(12px);
+  position: sticky;
+  z-index: 10px;
+  top: 0px;
+}
+
+.nav-logo-link-wrapper {
+  display: flex;
+  gap: 12rem;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+.link {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.link li {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--text-white);
+  font-weight: 500;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+}
+
+.nav-button-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact-sales-btn {
+  gap: 6px;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4.5px 12px;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-color: rgba(244, 244, 244, 0.104);
+  color: var(--text-white);
+}
+
+.start-for-free-btn {
+  gap: 6px;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 4.5px 12px;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-color: var(--bg-color);
+  color: var(--color-black);
+}
+
+.start-for-free-btn:hover {
+  background-color: #c7c7c7;
 }
