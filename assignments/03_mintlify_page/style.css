@@ -1,3 +1,18 @@
+:root {
+  --bg-color: #f4f5f4;
+  --color-darkgreen: #1d4c56;
+  --color-lightgreen: #45bc97;
+  --color-badge: #96b099;
+  --color-brown: #b4ab48;
+  --color-darkbrown: #88600e;
+  --color-lightbrown: #d1d092;
+  --color-subheading: #08090acc;
+  --color-blue: #3a88c8;
+  --color-lightpink: #bca794;
+  --color-black: #000;
+
+  --text-white: #f4f5f4;
+}
 * {
   margin: 0;
   padding: 0;
@@ -219,4 +234,109 @@ form input::placeholder {
 }
 .hero-background-illustration img {
   border-radius: 10px;
+}
+
+/* Trusted by section */
+
+.compay-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 90px 0px;
+}
+
+.company {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 10px;
+}
+
+.company-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  color: var(--color-black);
+}
+
+/* Feature section starts here */
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0px;
+}
+.feature p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.5;
+  color: #585858;
+}
+.feature h1 {
+  font-size: 40px;
+}
+.feature-card {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+  min-width: 500px;
+}
+.feature-card-layout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  width: fit-content;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 30px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.feature-card-layout p,
+h3,
+h2 {
+  text-align: start;
+  text-wrap: balance;
+  padding: 0px;
+}
+
+.feature-heading-main {
+  font-weight: 500;
+}
+.green-small-heading {
+  font-family: "Geist Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0c8c5e;
+  text-transform: uppercase;
+}
+
+.assistant-card {
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 30px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.assistant-card .text-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.assistant-card .text-wrapper p {
+  padding: 0px;
+}
+
+.assistant-card img {
+  margin-top: 100px;
 }
