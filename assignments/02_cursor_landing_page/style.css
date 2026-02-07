@@ -5,17 +5,7 @@
 
   color: #fff;
 }
-@font-face {
-  font-family: "CursorFont";
-  /* Choose a descriptive name for your font */
-  src: url("/fonts/cursor-font.woff2") format("woff2");
-  font-weight: normal;
-  /* Define the weight of this specific file */
-  font-style: normal;
-  /* Define the style (normal or italic) */
-  font-display: swap;
-  /* Recommended for better performance (FOUT over FOIT) */
-}
+
 html,
 body {
   width: 100%;
@@ -110,6 +100,64 @@ section img {
   width: 150px;
   padding: 20px;
   background-color: #444242;
+}
+
+.box {
+  text-align: center;
+  color: var(--color-white);
+  max-height: 100px;
+  background-color: var(--color-box);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 7.5px;
+}
+
+.box img {
+  height: 40px;
+  background: transparent;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr;
+  gap: 8px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.big-box-container {
+  padding: calc(calc(10rem / 16) * 1.75);
+  background-color: var(--color-box);
+  border-radius: 4px;
+}
+
+.big-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.big-box-text {
+  font-size: 22px;
+  padding: 0 30px 0 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.big-box-text h3 {
+  font-size: 22px;
+}
+
+.big-box img {
+  width: 840px;
+}
+.big-box-subheading {
+  font-size: 22px;
+  color: var(--color-text-secondary);
 }
 
 /* Testimonial Section style */
