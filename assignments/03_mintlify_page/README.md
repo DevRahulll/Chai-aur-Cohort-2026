@@ -1,5 +1,5 @@
 # OUTPUT (screenshots)
 
-live demo:
+live demo: https://mintlify-xi.vercel.app/
 
 <!-- images -->
