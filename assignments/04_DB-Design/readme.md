@@ -39,3 +39,13 @@
   </a>
 
 <br>
+
+## [Assignment 5. Smart Elevator Control](./assets/Lift-Grid-system.png)
+
+  <a href="https://github.com/DevRahulll/Chai-aur-Cohort-2026/tree/main/assignments/04_DB-Design">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/Lift-Grid-system.png">
+    <p>
+  </a>
+
+<br>
