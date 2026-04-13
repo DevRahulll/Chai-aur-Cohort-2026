@@ -60,3 +60,16 @@ const actor = {
 }
 const detachedBow = actor.bow;
 console.log(detachedBow())
+// detached methods don't have access to this
+
+const myfunctionOne = function () {
+    console.log(this)
+}
+
+const myfunctionTwo = () => {
+    console.log(this)
+}
+
+myfunctionOne();
+console.log("+++++++++++++++++++++++++++")
+myfunctionTwo();
