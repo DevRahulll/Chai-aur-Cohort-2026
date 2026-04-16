@@ -32,4 +32,57 @@ const arrowBrew = () => {
     }
 };
 
-arrowBrew("rosemary");
+// arrowBrew();
+
+let globalCount = 0;
+
+function brewCount(name) {
+    globalCount++;
+}
+
+//HOF
+function anotherFunctionForClass(brewCount) {
+    return function newBrew() {
+        console.log("Higher Order function", globalCount)
+    }
+}
+
+const hof = anotherFunctionForClass();
+// hof();
+
+// IIFE
+//()()
+//(function(){})(), (()=>{})()
+
+const potionShop = (function () {
+    let inventory = 0;
+
+    return {
+        brew() {
+            inventory++;
+            return `Brew potion #${inventory}`;
+        },
+        getStock() {
+            return inventory;
+        },
+    };
+})();
+
+// console.log(potionShop.brew())
+
+function something() {
+    let i = 7
+    const name = "hitesh"
+    return 5
+}
+
+function makeFunc() {
+    const name = "Safari";
+    function displayName() {
+        console.log(name)
+    }
+    return displayName;
+}
+
+const myFunc = makeFunc();
+myFunc();

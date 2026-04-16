@@ -52,6 +52,8 @@ delete catalogEntry.description;
 catalogEntry.role = "user";
 // console.log(catalogEntry)
 
+// NOTE -> seal we can modify existing value and freeze we cannot do anything 
+
 
 const secureArtificats = { name: "Ruby Pendant" };
 Object.defineProperty(secureArtificats, "catelogId", {
