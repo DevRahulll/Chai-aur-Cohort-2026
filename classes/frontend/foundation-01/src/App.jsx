@@ -1,3 +1,4 @@
+import Hitesh from "./Hitesh";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <div>
       <h1> HEllo world</h1>
+      <Hitesh/>
     </div>
   )
 }
